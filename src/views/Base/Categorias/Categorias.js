@@ -1,29 +1,23 @@
 import React, { Component } from 'react';
 import {
-  Badge,
+  Pagination, 
+  PaginationItem, 
+  PaginationLink,
   Button,
   Card,
   CardBody,
   CardFooter,
   CardHeader,
   Col,
-  Collapse,
-  DropdownItem,
-  DropdownMenu,
-  DropdownToggle,
-  Fade,
   Form,
   FormGroup,
   FormText,
-  FormFeedback,
   Input,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupButtonDropdown,
-  InputGroupText,
   Label,
   Row,
+  Table,
 } from 'reactstrap';
+
 
 class Categorias extends Component {
   constructor(props) {
@@ -84,6 +78,136 @@ class Categorias extends Component {
             </Card>
           </Col>
       </Row>
+      <Row>
+          <Col>
+            <Card>
+              <CardHeader>
+                <i className="fa fa-align-justify"></i> Categorias
+              </CardHeader>
+              <CardBody>
+                <Table hover bordered striped responsive size="sm">
+                  <thead>
+                  <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Ações</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>Vishnu Serghei</td>
+                    <td>2012/01/01</td>
+                    <td>
+                      
+                    <Row className="align-items-center">
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
+
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
+
+                      </Col>
+                    </Row>
+
+                    </td>
+                  
+                   
+                  </tr>
+                  <tr>
+                    <td>Zbyněk Phoibos</td>
+                    <td>2012/02/01</td>
+                    <td>
+                      
+                    <Row className="align-items-center">
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
+
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
+
+                      </Col>
+                    </Row>
+
+                    </td>
+                  
+                  </tr>
+                  <tr>
+                    <td>Einar Randall</td>
+                    <td>2012/02/01</td>
+                    <td>
+                      
+                    <Row className="align-items-center">
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
+
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
+
+                      </Col>
+                    </Row>
+
+                    </td>
+                   
+                  </tr>
+                  <tr>
+                    <td>Félix Troels</td>
+                    <td>2012/03/01</td>
+                    <td>
+                      
+                    <Row className="align-items-center">
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
+
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
+
+                      </Col>
+                    </Row>
+
+                    </td>
+                   
+                  </tr>
+                  <tr>
+                    <td>Aulus Agmundr</td>
+                    <td>2012/01/21</td>
+                    <td>
+                      
+                    <Row className="align-items-center">
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
+
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
+
+                      </Col>
+                    </Row>
+
+                    </td>
+                   
+                  </tr>
+                  </tbody>
+                </Table>
+                <nav>
+                  <Pagination>
+                    <PaginationItem><PaginationLink previous tag="button">Prev</PaginationLink></PaginationItem>
+                    <PaginationItem active>
+                      <PaginationLink tag="button">1</PaginationLink>
+                    </PaginationItem>
+                    <PaginationItem><PaginationLink tag="button">2</PaginationLink></PaginationItem>
+                    <PaginationItem><PaginationLink tag="button">3</PaginationLink></PaginationItem>
+                    <PaginationItem><PaginationLink tag="button">4</PaginationLink></PaginationItem>
+                    <PaginationItem><PaginationLink next tag="button">Next</PaginationLink></PaginationItem>
+                  </Pagination>
+                </nav>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
     </div>
     );
   }
