@@ -101,12 +101,13 @@ class Categorias extends Component {
                       
                     <Row className="align-items-center">
                       <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
-
+                        <Button size="sm" className="btn-xing btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-plus"></i><span>Criar</span></Button>
                       </Col>
                       <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
-
+                      <Button className="btn-facebook btn-brand btn-sm"><i className="fa fa-edit"></i><span>Editar</span></Button>
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button className="btn-youtube btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-remove"></i><span>Excluir</span></Button>
                       </Col>
                     </Row>
 
@@ -120,13 +121,14 @@ class Categorias extends Component {
                     <td>
                       
                     <Row className="align-items-center">
-                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
-
+                    <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button size="sm" className="btn-xing btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-plus"></i><span>Criar</span></Button>
                       </Col>
                       <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
-
+                      <Button className="btn-facebook btn-brand btn-sm"><i className="fa fa-edit"></i><span>Editar</span></Button>
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button className="btn-youtube btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-remove"></i><span>Excluir</span></Button>
                       </Col>
                     </Row>
 
@@ -139,13 +141,14 @@ class Categorias extends Component {
                     <td>
                       
                     <Row className="align-items-center">
-                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
-
+                    <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button size="sm" className="btn-xing btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-plus"></i><span>Criar</span></Button>
                       </Col>
                       <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
-
+                      <Button className="btn-facebook btn-brand btn-sm"><i className="fa fa-edit"></i><span>Editar</span></Button>
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button className="btn-youtube btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-remove"></i><span>Excluir</span></Button>
                       </Col>
                     </Row>
 
@@ -158,13 +161,14 @@ class Categorias extends Component {
                     <td>
                       
                     <Row className="align-items-center">
-                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
-
+                    <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button size="sm" className="btn-xing btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-plus"></i><span>Criar</span></Button>
                       </Col>
                       <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
-
+                      <Button className="btn-facebook btn-brand btn-sm"><i className="fa fa-edit"></i><span>Editar</span></Button>
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button className="btn-youtube btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-remove"></i><span>Excluir</span></Button>
                       </Col>
                     </Row>
 
@@ -177,13 +181,14 @@ class Categorias extends Component {
                     <td>
                       
                     <Row className="align-items-center">
-                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-facebook btn-brand"><i className="fa fa-edit"></i><span>Editar</span></Button>
-
+                    <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button size="sm" className="btn-xing btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-plus"></i><span>Criar</span></Button>
                       </Col>
                       <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
-                      <Button className="btn-youtube btn-brand mr-1 mb-1"><i className="fa fa-remove"></i><span>Excluir</span></Button>
-
+                      <Button className="btn-facebook btn-brand btn-sm"><i className="fa fa-edit"></i><span>Editar</span></Button>
+                      </Col>
+                      <Col col="6" sm="4" md="2" xl className="mb-3 mb-xl-0">
+                        <Button className="btn-youtube btn-brand mr-1 mb-1 btn-sm"><i className="fa fa-remove"></i><span>Excluir</span></Button>
                       </Col>
                     </Row>
 
