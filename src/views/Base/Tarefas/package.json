@@ -1,0 +1,6 @@
+{
+  "name": "Tarefas",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Tarefas.js"
+}

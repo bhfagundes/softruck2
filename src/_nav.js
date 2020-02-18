@@ -234,6 +234,11 @@ export default {
       icon: 'icon-star',
     },
     {
+      name: 'Tarefas',
+      url: '/tarefas',
+      icon: 'icon-star',
+    },
+    {
       name: 'Pages',
       url: '/pages',
       icon: 'icon-star',
